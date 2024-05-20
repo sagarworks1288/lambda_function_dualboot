@@ -1,0 +1,26 @@
+{
+  "name": "lambda_function_dualboot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec node express_boot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarworks1288/lambda_function_dualboot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagarworks1288/lambda_function_dualboot/issues"
+  },
+  "homepage": "https://github.com/sagarworks1288/lambda_function_dualboot#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.0"
+  }
+}
